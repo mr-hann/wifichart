@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    background: #f5f2f2;
+    /*filter: blur(8px);
+    -webkit-filter:blur(8px);*/
+}
+main{
+    padding: 20px;
+}
+h1{
+    color:green;
+    padding: 20px;
+}
+span{ color: white;}
+a[href]{
+    text-decoration: none;
+    padding: 20px;
+    width: 100px;
+    margin: 0;
+    display: inline-block;
+    
+
+}
+a[href="sign-up.html"]{
+    color: green;
+    background:#f5f2f2;
+    color: green; 
+    border:1px solid green; 
+    border-radius: 0 5px 5px 0;
+}
+a[href="login.html"]{
+    text-decoration: none;
+    color:#f5f2f2;
+    background: green; 
+    color:#f5f2f2; 
+    border:1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}

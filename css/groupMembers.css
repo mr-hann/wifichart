@@ -1,0 +1,90 @@
+body{
+    background: #f5f2f2;
+}
+main{
+    position: relative;
+}
+main div{
+    background:#3c8e3c;
+    height:8em;
+    width:auto;
+    position: sticky;
+    width: 100%;
+}
+h3{
+    padding: 5px;
+    text-align: center;
+}
+
+main button{
+    padding: 30px;
+    border-radius:50%;
+    border:2px solid white;
+    background:#3c8e3c;
+    position: relative;
+    top:-37px;
+    left:40%;
+    color: white;
+    margin-bottom:-30px;
+}
+
+
+/*work on this*/
+.fa-ul li{
+    display: block;
+    position: relative;
+    padding: 17px;
+    color: #ccc;
+    background: white;
+    border-radius:50%;
+   max-width:16px;
+    height: 15px;
+    margin: 17px 0 13px 10px;
+}
+.fa-ul li a{
+    margin-left:30px;
+    text-decoration: none;
+    font-family: "serif",cursive;
+    font-size: 15px;
+    max-width:;
+    padding: 10px;
+}
+.fa-ul li a:hover{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 400;
+    border-bottom: 1px solid white;
+    transition:border-bottom 0.4s ease-in;
+}
+/*end*/
+
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
+.green{
+    color:green;
+}
+.orange{
+    color: orange;
+}
+.purple{
+    color: purple;
+}
+.yellow{
+    color: #b2c44d;
+}
+.black{
+    color: black;
+}
+.pink{
+    color:hotpink;
+}
+.white{
+    color: white;
+}
+.ash{
+    color: #fafafa;
+}

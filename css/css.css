@@ -1,0 +1,145 @@
+body{
+    font-family: "sans-serif",cursive,serif,serif;
+    font-size: 16px;
+    margin:0;
+    padding: 0;
+    background-color:white;
+}
+
+/*navbar css*/
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#3c8e3c;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index:1;
+}
+.right{
+    position: absolute;
+    right:0;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navbar li a:hover {
+    background-color:  #307e30;
+}
+/* end ofnavebar css */
+
+/*user massages*/
+.otherUser:first-child{
+    margin-top: 80px;
+}
+.MainUser:first-child{
+    margin-top: 80px;
+}
+.otherUser,.MainUser{
+    width: auto;
+    height:auto;
+    border-radius:10px;
+    padding:30px 30px;
+    margin: 16px 15px;
+}
+.otherUser span{
+   color:red ;
+    margin: 0px 5px;
+}
+.otherUser{
+     background:#f7f4f4;
+     color: black;
+}
+.UserName,.Time,.Offline,.sent{
+    font-size: 10px;
+}
+.UserName{
+    position: absolute;
+    left:25px;
+    
+}
+.Time{
+    position: absolute;
+    right:15%;
+    color:#797979;
+}
+.MainUser .fa{color: #797979;} 
+.MainUser span{
+    position: absolute;
+    left:30px;
+}
+.MainUser{
+    background:#cefcce;
+    color: black;
+}
+.massageMainuser{
+    direction: rtl;
+    border-right:2px solid blue;
+    padding: 1px 5px 1px 1px;
+    
+}
+.massageOtheruser{
+    border-left:2px solid red;
+    padding: 1px 5px 1px 1px;
+}
+/*end of massege css*/
+
+
+/*just left*/
+.Offline{
+    position: relative;
+    color:#7e7b7b;
+    width: 30%;
+    padding:5px 0 30px 5px; 
+    margin: 0px 0px 40px 0px; 
+}
+
+
+/*input element and the button*/
+.form{
+    background:white;
+    height:3.2em;
+    width:100%;
+    padding: 2px 1px;
+    position:relative;
+    position: fixed;
+    bottom:0;
+    left:0;
+    margin-top:10px; 
+}
+.form form input{
+    border-radius: 25px;
+    border:1px solid #f7f4f4;
+    height:3em;
+    width: 71%;
+    background:#f7f4f4;
+    padding: 2px 16px 2px 15px;
+    position:fixed;
+    bottom:5px;
+    left:5px;
+    
+}
+.send{
+    padding:15px;
+    border-radius: 50%;
+    border:1px solid #3c8e3c;
+    background: #307e30;
+    color:white;
+    position: fixed;
+    bottom:5px;
+    right:5px;
+}

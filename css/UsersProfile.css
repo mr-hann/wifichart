@@ -1,0 +1,74 @@
+body{
+    background: #f5f2f2;
+}
+ul{
+    list-style: none;
+}
+
+h3{
+    text-align: center;
+    
+}
+.lis{
+    padding: 5px;
+    margin: 30px 2px;
+    
+}
+li p{
+    width:70%;
+}
+
+.black{
+    color: black;
+}
+.white{
+    color: white;
+}
+.button{
+    padding: 10px;
+    margin: 25px 0 0 0;
+    background: #3c8e3c;
+    border:1px solid #3c8c3c;
+    border-radius: 5px;
+    left:95px;
+    right: 0px;
+    
+}
+.input{ 
+    background:  #f5f2f2;
+    width:50%;
+    position: relative;
+    right: 5px;
+    height:2.2em;
+    padding:4px;
+    border:1px solid  #f5f2f2;
+    border-bottom: 1px solid white;
+    margin-left:10px; 
+}
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
+.green{
+    color:green;
+}
+.orange{
+    color: orange;
+}
+.purple{
+    color: purple;
+}
+.yellow{
+    color: #b2c44d;
+}
+.black{
+    color: black;
+}
+.pink{
+    color:hotpink;
+}
+.skyblue{
+    color:skyblue;
+}
